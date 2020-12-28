@@ -1,0 +1,159 @@
+
+body{
+  background-color: #74BDCB;
+  color: black;
+}
+h1
+{
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+}
+p{
+color: #E7F2F8;
+}
+.navbar{
+  padding: 1% 15%;
+  color: white;
+}
+
+#homesection{
+  background: url(images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  width: 100%;
+  color: white;
+}
+
+.dark-overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ min-height: 700px;
+ background: rgba(0, 0, 0, 0.7);
+}
+
+.homesection-inner {
+padding: 3% 15%;
+}
+
+#features , #AboutUs, #contact {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+
+}
+
+
+#features .fas{
+  color: #17a2b8;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.product-column {
+  padding: 1rem;
+}
+
+.intro{
+  text-align: center;
+}
+
+
+.d-flex .fas{
+  color: #17a2b8;
+  background-color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.fasocialIcons{
+  padding-right: 10px;
+  color: #393f46;
+}
+.fasocialIcons:hover, .footer-icons:hover{
+  color: #212529;
+}
+
+#Products {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#Products .d-flex{
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.gray-paragraph{
+  color: #8f8f8f;
+}
+
+#Products img{
+  max-width: 95%;
+  max-height: 250px;
+}
+
+#team {
+  text-align: center;
+  padding: 100px;
+}
+
+#team .card-body {
+min-height: 500px;
+}
+.footer-icons{
+  padding: 10px;
+  color: #393f46;
+  font-size: 2rem;
+}
+.team-picture{
+  border-radius: 100%;
+  width: 70%;
+}
+
+.badge-team {
+    padding: 0.3rem;
+    font-size: 50%;
+    text-align: center;
+    color: blue;
+    vertical-align: top;
+}
+
+.viewteam {
+  padding: 3% 15%;
+}
+.team-column{
+  padding: 1rem;
+}
+
+
+
+@media (max-width: 943px) {
+.intro{
+  padding-top: 30%;
+}
+.display-none{
+  display:none;
+}
+
+.team-column{
+  padding-right: 0;
+  padding-left: 0;
+}
+}
+
+@media (min-width: 943px) {
+.display-none{
+  display:block;
+}
+}
