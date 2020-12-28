@@ -23,6 +23,7 @@ color: #E7F2F8;
 #homesection{
   background: url(images/background-image.jpg);
   background-repeat: no-repeat;
+  background-position:top;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
