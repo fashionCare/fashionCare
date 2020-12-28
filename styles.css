@@ -147,14 +147,15 @@ min-height: 500px;
   display:none;
 }
 
-.team-column{
-  padding-right: 0;
-  padding-left: 0;
-}
+
 }
 
 @media (min-width: 943px) {
 .display-none{
   display:block;
+}
+  .team-column{
+  padding-right: 0;
+  padding-left: 0;
 }
 }
